@@ -30,3 +30,4 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/myimagedocker:latest
+          #RUN
